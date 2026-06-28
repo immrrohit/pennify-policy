@@ -1,7 +1,7 @@
 # Privacy Policy — Pennify
 
 **Effective date:** May 8, 2026  
-**Last updated:** June 12, 2026  
+**Last updated:** June 21, 2026  
 **App name:** Pennify – Expense Tracker  
 **Package:** com.grizplayapp.pennify  
 **Developer:** GrizPlay Apps  
@@ -64,6 +64,7 @@ This data is collected and processed by Google, not by Pennify. We do not receiv
 | `INTERNET` | Required to load and display Google AdMob banner ads |
 | `VIBRATE` | Used for haptic feedback when you interact with the app |
 | `POST_NOTIFICATIONS` | Required on Android 13+ to send you optional daily reminder notifications. **You are asked before this is enabled** — notifications are off by default and only activated if you turn them on in Settings. |
+| `USE_BIOMETRIC` / `USE_FINGERPRINT` | Required to offer the optional **App Lock** feature (Settings → Security). Your fingerprint/face data is verified entirely by your device's operating system — Pennify never sees, collects, or stores any biometric data. App Lock is off by default. |
 
 We do **not** request:
 - `READ_EXTERNAL_STORAGE` or `WRITE_EXTERNAL_STORAGE` — file export/import uses Android's Storage Access Framework (SAF), which does not require these permissions
